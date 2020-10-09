@@ -6,8 +6,8 @@ const { validationResult } = require("express-validator");
 
 const User = require("../models/users");
 
-const SENDGRID_API_KEY =
-  "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";
+const SENDGRID_API_KEY = "YOUR SENDGRID API KEY"
+
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 exports.getSignup = (req, res, next) => {
