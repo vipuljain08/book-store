@@ -1,0 +1,33 @@
+{
+  "name": "book-store",
+  "version": "1.0.0",
+  "description": "Book Store using express, mongoose, connect-flash, ejs, multer, node mailer, express-session",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Vipul Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.4.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.9.11",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.6",
+    "pug": "^2.0.3"
+  }
+}
